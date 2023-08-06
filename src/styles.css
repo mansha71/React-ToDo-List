@@ -68,6 +68,14 @@ body {
     margin-bottom: 0.5rem;
 }
 
+h1{
+    text-align: center;
+}
+
+h3{
+    color: #9988cdca;
+}
+
 li {
     margin-top: 0.75rem;
 }

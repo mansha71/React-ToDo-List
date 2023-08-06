@@ -42,13 +42,14 @@ function App() {
 
   return (
     <>
-      <h3>Enter Task</h3>
+      <h1>To-Do List</h1>
+      <h3>Enter Task:</h3>
       <form onSubmit={handleAddTask}>
-        <label htmlFor="taskInput">Task:</label>
+        <label htmlFor="taskInput"></label>
         <input type="text" value={taskInput} onChange={handleInputChange} />
         <button className='btn' type="submit">Add</button>
       </form>
-      <h3>Current Tasks:</h3>
+      <h3>Tasks:</h3>
       <div>
         <ul>
           {tasks.map((task, index) => (
